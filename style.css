@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 1em;
+    /* width: 90%; */
+    /* margin: auto; */
+}
+
+#header{
+    border-right: black solid 2px;
+    height: 2em;
+}
+
+.head a{
+    text-decoration: none;
+    color: #bb7648;
+}
+
+#header1 {
+    /* border-right: black solid 2px; */
+    height: 2em;
+}
+
+/* for register */
+
+form{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(238, 231, 231);
+    text-align: center;
+    justify-content: center;
+}
+
+.register{
+    background-color: rgb(171, 224, 224);
+    padding: 3em;
+    margin-bottom: 2em;
+}
+
+#register{
+    color: #bb7648;
+}
+
+
+label {
+    display: inline-block;
+    width: 10em;
+    text-align: center;
+}
+
+
+#firstname {
+    font-size: 1 em;
+}
+
+#firstN {
+    margin-top: 1em;
+    height: 1.5em;
+    width: 20%;
+    margin-bottom: .5em;
+}
+
+#lastname {
+    font-size: 1 em;
+}
+
+#lastN {
+    margin-top: 1em;
+        height: 1.5em;
+        width: 20%;
+        margin-bottom: .5em;
+}
+
+#number {
+    font-size: 1 em;
+}
+
+#num {
+margin-top: 1em;
+    height: 1.5em;
+    width: 20%;
+    margin-bottom: .5em;
+}
+
+#gender {
+    font-size: 1 em;
+}
+
+#gend {
+    margin-top: 1em;
+        height: 1.5em;
+        width: 20%;
+        margin-bottom: .5em;
+}
+
+select {
+    display: inline-block;
+}
+
+#dob {
+    font-size: 1 em;
+}
+
+#dobb {
+    margin-top: 1em;
+        height: 1.5em;
+        width: 20%;
+        margin-bottom: .5em;
+}
+
+#col {
+    font-size: 1 em;
+}
+
+#prov {
+    margin-top: 1em;
+        height: 1.5em;
+        width: 20%;
+        margin-bottom: .5em;
+}
+
+#email {
+    font-size: 1 em;
+}
+
+#eemail {
+    margin-top: 1em;
+        height: 1.5em;
+        width: 20%;
+        margin-bottom: .5em;
+}
+
+#pword {
+    font-size: 1 em;
+}
+
+#passwordd {
+    margin-top: 1em;
+        height: 1.5em;
+        width: 20%;
+        margin-bottom: .5em;
+}
+
+#conpas {
+    font-size: 1 em;
+}
+
+#fconpas {
+    margin-top: 1em;
+        height: 1.5em;
+        width: 20%;
+        margin-bottom: .5em;
+}
+
+#submit {
+    border:black solid 2px;
+    background-color: #bb7648;
+    height: 2.5em;
+    font-family: "Courier New", Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    width: 15%;
+    margin: 2em;
+}
+
+/* for login */
+
+.login {
+    background-color: rgb(171, 224, 224);
+    padding: 3em;
+    margin-bottom: 2em;
+}
+
+
+
+#username {
+    font-size: 1em;
+}
+
+#usermail {
+    margin-top: 1em;
+        height: 1.5em;
+        width: 30%;
+        margin-bottom: 2em;
+}
+
+#password {
+    font-size: 1em;
+}
+
+#passw {
+    margin-top: 1em;
+        height: 1.5em;
+        width: 30%;
+        margin-bottom: 1em;
+}
+
+#log {
+    border: black solid 2px;
+    background-color: #bb7648;
+    height: 2em;
+    font-family: "Courier New", Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    width: 15%;
+    margin: 2em;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mess{
+    padding-bottom: 5em;
+}
+
+#messs{
+    font-size: 1.1em;
+}
+
+#reg{
+    text-decoration: none;
+    color: #bb7648;
+    font-size: 1.1em;
+}
+
+footer{
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+/* for success */
+.regall{
+    width: 50%;
+    margin: auto;
+}

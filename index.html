@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table class="header" border="0" , width="100%">
+      <tr>
+        <th id="header" class="head" width="50%"><a href="index.html">REGISTER</a></th>
+        <th id="header1" class="head" width="50%"><a href="login.html">LOGIN</a></th>
+      </tr>
+    </table>
+
+    <form action="login.html" align="center">
+      <div class="register">
+        <h2 id="register">REGISTER</h2>
+      </div>
+
+      <div class="reg">
+        <label id="firstname" for="fname">First Name:</label>
+        <input type="text" id="firstN" name="fname" placeholder="First Name"/>
+      </div>
+
+      <div class="reg">
+        <label id="lastname" for="lname">Last Name:</label>
+        <input type="text" id="lastN" name="lname" placeholder="Last Name"/>
+      </div>
+
+      <div class="reg">
+        <label id="number" for="num"> Number:</label>
+        <input type="number" id="num" name="num" placeholder="Phone Number"/>
+      </div>
+
+      <div class="reg">
+        <label id="gender" for="gender">Gender:</label>
+        <select id="gend" class="gender" name="gender" >
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+        </select>
+      </div>
+
+      <div class="reg">
+        <label id="dob" for="country"> Date of Birth:</label>
+        <input type="date" id="dobb" name="country" />
+      </div>
+
+      <div class="reg">
+        <label id="col" for="fav colour"> Favourite colour:</label>
+        <input type="color" id="prov" name="color" value="#ff0000" />
+      </div>
+
+      <div class="reg">
+        <label id="email" for="email"> Email:</label>
+        <input type="email" id="eemail" name="mail" required placeholder="Enter a valid email address" />
+      </div>
+
+      <div class="reg">
+        <label id="pword" for="password"> Password:</label>
+        <input type="password" id="passwordd" name="password" minlength="8" />
+      </div>
+
+      <div class="reg">
+        <label for="conpas"> Confirm Password:</label>
+        <input type="password" id="fconpas" name="conpassword" minlength="8"  />
+      </div>
+
+      <input id="submit" type="submit" value="submit"  />
+    </form>
+  </body>
+
+  <footer>
+    <div>
+      &copy; Awesome
+    </div>
+  </footer>
+</html>
